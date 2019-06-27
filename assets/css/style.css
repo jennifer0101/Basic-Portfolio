@@ -1,0 +1,29 @@
+body {
+    background-image: url(../images/circles-light.png);
+    background-image:repeat;
+    color: #777777;
+    
+}
+
+.container {
+    width: 960px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #cccccc;
+} 
+
+.logo {
+    background-color: #4aaaa5;
+    padding: 20px;
+    color: white;
+    position: absolute;
+}
+
+#content {
+        width: 100%;
+        background-color: ffffff;
+        border-width: 3px;
+        border-color: dddddd;
+}
+
