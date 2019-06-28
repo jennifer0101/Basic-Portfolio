@@ -164,11 +164,41 @@ p {
     display: block;
 }
 
-.portfolioitems {
+#portitem1 {
+    position: relative;
     float: left;
+    padding: 10px 20px 30px 0px;
+}
+
+#portitem2 {
+    position: relative;
+    float: left;
+    padding: 10px 0px 30px 20px;
+}
+
+#portitem3 {
+    clear: both;
+    position: relative;
+    float: left;
+    padding: 30px 20px 30px 0px;
+}
+
+#portitem4 {
+    position: relative;
+    float: left;
+    padding: 30px 0px 30px 20px;
+}
+
+#portitem5 {
+    clear: both;
+    position: relative;
+    float: left;
+    padding-top: 30px;
 }
 
 #hangman {
+    position: absolute;
+    bottom: 47px;
     background-color: #4aaaa5;
     color: white;
     width: 275px;
@@ -178,6 +208,8 @@ p {
 }
 
 #rpggame {
+    position: absolute;
+    bottom: 47px;
     background-color: #4aaaa5;
     color: white;
     width: 275px;
@@ -187,6 +219,8 @@ p {
 }
 
 #triviagame {
+    position: absolute;
+    bottom: 47px;
     background-color: #4aaaa5;
     color: white;
     width: 275px;
@@ -196,6 +230,8 @@ p {
 }
 
 #rutgers {
+    position: absolute;
+    bottom: 47px;
     background-color: #4aaaa5;
     color: white;
     width: 275px;
@@ -205,6 +241,8 @@ p {
 }
 
 #rockpaper {
+    position: absolute;
+    bottom: 17px;
     background-color: #4aaaa5;
     color: white;
     width: 275px;
