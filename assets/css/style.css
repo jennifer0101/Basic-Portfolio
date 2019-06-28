@@ -76,14 +76,27 @@ header {
 }
 
 nav li {
-    float: left;
+    display: inline-block;
     padding-top: 30px;
+    margin-left: 8px;
+}
+
+nav a {
+    color: #777777;
+    text-decoration: none;
+
 }
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 28px; 
+    font-size: 29px; 
 }
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px; 
+}
+
 
 .tealtext { 
     color: #4aaaa5;
@@ -107,7 +120,7 @@ nav {
 
 #bio-img {
     float: left;
-    margin: 0px 30px 30px 0px;    
+    margin: 0px 25px 0px 0px;   
 }
 
 .bio {
@@ -140,8 +153,62 @@ section {
     height: 69px;
     background-color: #666666; 
     border-top: 8px solid #4aaaa5;
-    color: #ffffff;
+    color: white;
     text-align: center;
     font-size: 12px;
     letter-spacing: 0px;
+    padding-top: 40px;
+}
+
+p {
+    display: block;
+}
+
+.portfolioitems {
+    float: left;
+}
+
+#hangman {
+    background-color: #4aaaa5;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rpggame {
+    background-color: #4aaaa5;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#triviagame {
+    background-color: #4aaaa5;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rutgers {
+    background-color: #4aaaa5;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#rockpaper {
+    background-color: #4aaaa5;
+    color: white;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
 }
