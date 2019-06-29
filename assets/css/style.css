@@ -102,6 +102,11 @@ h1 {
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 29px; 
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px; 
 }
 
@@ -135,12 +140,14 @@ nav {
     clear: both;
 }
 
+
+
 .header-content {
     width:960px;
     margin: auto;
 }
 
-#content {
+.content {
         clear: both;
         margin: auto;
         width: 960px;
@@ -150,7 +157,6 @@ nav {
         border-style: solid;
         overflow: auto;
         padding: 30px;
-        margin-bottom: 150px;
 }
 
 section {
@@ -166,10 +172,7 @@ section {
     font-size: 12px;
     letter-spacing: 0px;
     padding-top: 40px;
-}
-
-p {
-    display: block;
+    margin-top: 140px;
 }
 
 #portitem1 {
@@ -278,6 +281,6 @@ input[type=submit] {
     width: 118px;
     height: 43px;
     font-size: 20px;
-    border-color: #cccccc
+    border-color: #cccccc;
     border: 1px;
 }
