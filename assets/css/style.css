@@ -97,8 +97,6 @@ nav {
     clear: both;
 }
 
-
-
 .header-content {
     width:960px;
     margin: auto;
@@ -245,3 +243,4 @@ input[type=submit] {
     border-color: #cccccc;
     border: 1px;
 }
+
